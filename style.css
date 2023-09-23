@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600&family=Raleway:wght@100;500;600;900&display=swap");
+
+
+:root {
+	--fonte: 'Poppins', sans-serif;
+	--ice-gray: #F2F2F2;
+	--green: #134f39;
+	--darkgreen: rgb(1, 53, 39);
+}
+
+* {
+	text-align: center;
+	font-family: var(--fonte);
+	background-color: var(--ice-gray);
+
+}
+
+h1 {
+	margin: 40px auto 40px auto;
+	font-size: 30px;
+	color: var(--darkgreen);
+
+}
+
+#txtpeso {
+	width: 80%;
+	margin: 0 auto;
+	padding: 10px;
+	border: 1px solid #000;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	
+}
+
+#txtaltura {
+	width: 80%;
+	margin: 0 auto;
+	padding: 10px;
+	border: 1px solid #000;
+	margin-bottom: 10px;
+	border-radius: 10px;
+}
+
+#txtimc {
+	width: 80%;
+	margin: 0 auto;
+	padding: 10px;
+	border: 1px solid #000;
+	margin-bottom: 10px;
+	border-radius: 10px;
+}
+
+#txtmensagem {
+	width: 80%;
+	margin: 0 auto;
+	padding: 10px;
+	border: 1px solid #000;
+	margin-bottom: 10px;
+	border-radius: 10px;
+}
+
+form>* {
+	display: block;
+	margin: auto;
+	text-align: center;
+}
+
+input[type="button"] {
+	background-color: var(--green);
+	border-radius: 16px;
+	border: none;
+	padding: 6px;
+	color: var(--ice-gray);
+    margin-top: 15px;
+}
