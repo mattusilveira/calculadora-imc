@@ -7,59 +7,59 @@
 :root {
 	--fonte: 'Poppins', sans-serif;
 	--ice-gray: #F2F2F2;
-	--green: #134f39;
-	--darkgreen: rgb(1, 53, 39);
+	--red: #4f1313;
+	--darkred: rgb(53, 1, 1);
 }
 
 * {
 	text-align: center;
 	font-family: var(--fonte);
-	background-color: var(--ice-gray);
+	background-color: #f2f2f2;
 
 }
 
 h1 {
-	margin: 40px auto 40px auto;
-	font-size: 30px;
-	color: var(--darkgreen);
+	margin: 200px auto 40px auto;
+	font-size: 50px;
+	color: var(--darkred);
 
 }
 
 #txtpeso {
-	width: 80%;
+	width: 29.5%;
 	margin: 0 auto;
 	padding: 10px;
-	border: 1px solid #000;
+	border: 1px solid #790000;
 	margin-bottom: 10px;
-	border-radius: 10px;
+	border-radius: 30px;
 	
 }
 
 #txtaltura {
-	width: 80%;
+	width: 29%;
 	margin: 0 auto;
 	padding: 10px;
-	border: 1px solid #000;
+	border: 1px solid #790000;
 	margin-bottom: 10px;
-	border-radius: 10px;
+	border-radius: 30px;
 }
 
 #txtimc {
-	width: 80%;
+	width: 30%;
 	margin: 0 auto;
 	padding: 10px;
-	border: 1px solid #000;
+	border: 1px solid #790000;
 	margin-bottom: 10px;
-	border-radius: 10px;
+	border-radius: 30px;
 }
 
 #txtmensagem {
-	width: 80%;
+	width: 26.82%;
 	margin: 0 auto;
 	padding: 10px;
-	border: 1px solid #000;
+	border: 1px solid #790000;
 	margin-bottom: 10px;
-	border-radius: 10px;
+	border-radius: 30px;
 }
 
 form>* {
@@ -69,10 +69,10 @@ form>* {
 }
 
 input[type="button"] {
-	background-color: var(--green);
+	background-color: var(--red);
 	border-radius: 16px;
 	border: none;
 	padding: 6px;
-	color: var(--ice-gray);
+	color: #f2f2f2;
     margin-top: 15px;
 }
